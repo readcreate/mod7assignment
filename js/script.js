@@ -1,7 +1,9 @@
 // GET ADD EMPLOYEE FORM AND EMPLOYEE TABLE FROM THE DOM
+let form = document.getElementById("addForm")
 
 // SET A COUNT VARIABLE TO DISPLAY NEXT TO EMPLOYEES HEADER
-
+// let empCounter = document.getElementById("employees").rows.length-1;
+let empCounter = 0;
 
 // ADD EMPLOYEE
 form.addEventListener('submit', (e) => {
